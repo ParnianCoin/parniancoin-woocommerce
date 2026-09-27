@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parnian Pay 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+msgid "Parnian Pay requires WooCommerce to be installed and active."
+msgstr "تتطلب بوابة برنيان تثبيت ووكومرس وتفعيله."
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "ParnianCoin invoice"
+msgstr "فاتورة برنيان كوين"
+
+#, php-format
+msgid "Rate: 1 PARC = %1$s %2$s"
+msgstr "السعر: 1 PARC = %1$s %2$s"
+
+msgid "Check ParnianCoin payment status"
+msgstr "التحقق من حالة دفع برنيان كوين"
+
+#, php-format
+msgid "ParnianCoin status check failed: %s"
+msgstr "فشل التحقق من حالة برنيان كوين: %s"
+
+#, php-format
+msgid "ParnianCoin invoice status: %1$s (received %2$s PARC)."
+msgstr "حالة فاتورة برنيان كوين: %1$s (المستلم %2$s PARC)."
+
+msgid "Pay with ParnianCoin (PARC)"
+msgstr "الدفع ببرنيان كوين (PARC)"
+
+msgid "ParnianCoin (Parnian Pay)"
+msgstr "برنيان كوين (بوابة برنيان)"
+
+msgid "Accept ParnianCoin (PARC). Payments go directly from the buyer’s wallet to your own PARC account."
+msgstr "اقبل برنيان كوين (PARC). تنتقل المدفوعات مباشرة من محفظة المشتري إلى حساب PARC الخاص بك."
+
+msgid "Enable/Disable"
+msgstr "تفعيل/تعطيل"
+
+msgid "Enable ParnianCoin payments"
+msgstr "تفعيل الدفع ببرنيان كوين"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "You will be taken to the secure Parnian Pay page to pay from your ParnianCoin wallet."
+msgstr "سيتم نقلك إلى صفحة بوابة برنيان الآمنة للدفع من محفظة برنيان كوين الخاصة بك."
+
+msgid "Connection"
+msgstr "الاتصال"
+
+#, php-format
+msgid "Create an API key in your Parnian Pay dashboard and set this Webhook URL there: %s"
+msgstr "أنشئ مفتاح API في لوحة تحكم بوابة برنيان واضبط عنوان Webhook هذا هناك: %s"
+
+#, php-format
+msgid "The PARC price is set in the Parnian Pay dashboard (Conversion rates) — add a rate for %s there."
+msgstr "يُحدَّد سعر PARC في لوحة تحكم بوابة برنيان (أسعار التحويل) — أضف سعرًا لـ %s هناك."
+
+msgid "API key"
+msgstr "مفتاح API"
+
+msgid "Starts with pk_live_. Kept on your server only."
+msgstr "يبدأ بـ pk_live_ ويُحفظ على خادمك فقط."
+
+msgid "Webhook signing secret"
+msgstr "مفتاح توقيع Webhook"
+
+msgid "Starts with whsec_. Shown in the Webhook section of your Parnian Pay dashboard."
+msgstr "يبدأ بـ whsec_ ويظهر في قسم Webhook في لوحة تحكم بوابة برنيان."
+
+msgid "Payment window (minutes)"
+msgstr "مهلة الدفع (بالدقائق)"
+
+msgid "Gateway address"
+msgstr "عنوان البوابة"
+
+msgid "Debug log"
+msgstr "سجل التصحيح"
+
+msgid "Log requests and webhooks (WooCommerce → Status → Logs, source \"parnian-pay\")"
+msgstr "تسجيل الطلبات وإشعارات Webhook (ووكومرس ← الحالة ← السجلات، المصدر «parnian-pay»)"
+
+#, php-format
+msgid "Parnian Pay: connection failed — %s"
+msgstr "بوابة برنيان: فشل الاتصال — %s"
+
+#, php-format
+msgid "Parnian Pay: connected as \"%1$s\", but the gateway is not active yet (status: %2$s). Payments will be refused until an administrator approves it."
+msgstr "بوابة برنيان: تم الاتصال باسم «%1$s»، لكن البوابة غير مفعّلة بعد (الحالة: %2$s). سيتم رفض المدفوعات حتى يوافق المسؤول."
+
+#, php-format
+msgid "Parnian Pay: connected as \"%s\" — gateway active."
+msgstr "بوابة برنيان: تم الاتصال باسم «%s» — البوابة مفعّلة."
+
+#, php-format
+msgid "Parnian Pay: no conversion rate is set for %s in your Parnian Pay dashboard — checkout with ParnianCoin will fail until you add one."
+msgstr "بوابة برنيان: لا يوجد سعر تحويل لـ %s في لوحة تحكم بوابة برنيان — سيفشل الدفع ببرنيان كوين حتى تضيفه."
+
+#, php-format
+msgid "Parnian Pay: current rate 1 PARC = %1$s %2$s."
+msgstr "بوابة برنيان: السعر الحالي 1 PARC = %1$s %2$s."
+
+msgid "Parnian Pay: the webhook signing secret is empty — payments will only be confirmed when buyers return to your site."
+msgstr "بوابة برنيان: مفتاح توقيع Webhook فارغ — لن تُؤكَّد المدفوعات إلا عند عودة المشترين إلى موقعك."
+
+msgid "This order cannot be paid with ParnianCoin."
+msgstr "لا يمكن دفع هذا الطلب ببرنيان كوين."
+
+#, php-format
+msgid "Order #%1$s — %2$s"
+msgstr "الطلب #%1$s — %2$s"
+
+msgid "ParnianCoin payments are temporarily unavailable in this store."
+msgstr "الدفع ببرنيان كوين غير متاح مؤقتًا في هذا المتجر."
+
+msgid "Could not start the ParnianCoin payment. Please try again in a moment."
+msgstr "تعذّر بدء الدفع ببرنيان كوين. حاول مرة أخرى بعد قليل."
+
+#, php-format
+msgid "ParnianCoin invoice created: %1$s PARC (%2$s)."
+msgstr "تم إنشاء فاتورة برنيان كوين: %1$s PARC (%2$s)."
+
+#, php-format
+msgid "ParnianCoin invoice %s is marked paid but the amount does not match the order. Please check."
+msgstr "فاتورة برنيان كوين %s مدفوعة لكن المبلغ لا يطابق الطلب. يرجى التحقق."
+
+#, php-format
+msgid "ParnianCoin payment confirmed: %1$s PARC. %2$s"
+msgstr "تم تأكيد دفع برنيان كوين: %1$s PARC. %2$s"
+
+msgid "ParnianCoin payment received — waiting for block confirmation."
+msgstr "تم استلام دفعة برنيان كوين — بانتظار تأكيد الكتلة."
+
+#, php-format
+msgid "ParnianCoin payment arrived after the invoice expired (%1$s PARC). Decide manually: complete the order or refund. %2$s"
+msgstr "وصلت دفعة برنيان كوين بعد انتهاء صلاحية الفاتورة (%1$s PARC). قرّر يدويًا: أكمل الطلب أو أعد المبلغ. %2$s"
+
+#, php-format
+msgid "ParnianCoin invoice expired with a partial payment (%1$s PARC). Contact the customer. %2$s"
+msgstr "انتهت صلاحية فاتورة برنيان كوين بدفعة جزئية (%1$s PARC). تواصل مع العميل. %2$s"
+
+msgid "ParnianCoin invoice expired without payment."
+msgstr "انتهت صلاحية فاتورة برنيان كوين دون دفع."
+
+msgid "Your ParnianCoin payment is being confirmed on the blockchain. This page will show the order as paid once it is confirmed; you will not be charged twice."
+msgstr "يجري تأكيد دفعتك ببرنيان كوين على سلسلة الكتل. ستظهر هذه الصفحة الطلب كمدفوع بعد التأكيد، ولن يُخصم المبلغ مرتين."
+
+msgid "Open the payment page"
+msgstr "فتح صفحة الدفع"
+

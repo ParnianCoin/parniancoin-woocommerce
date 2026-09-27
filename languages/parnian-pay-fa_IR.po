@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parnian Pay 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Parnian Pay requires WooCommerce to be installed and active."
+msgstr "پرنیان پی برای کار به ووکامرس نصب‌شده و فعال نیاز دارد."
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "ParnianCoin invoice"
+msgstr "فاکتور پرنیان‌کوین"
+
+#, php-format
+msgid "Rate: 1 PARC = %1$s %2$s"
+msgstr "نرخ: هر PARC = %1$s %2$s"
+
+msgid "Check ParnianCoin payment status"
+msgstr "بررسی وضعیت پرداخت پرنیان‌کوین"
+
+#, php-format
+msgid "ParnianCoin status check failed: %s"
+msgstr "بررسی وضعیت پرنیان‌کوین ناموفق بود: %s"
+
+#, php-format
+msgid "ParnianCoin invoice status: %1$s (received %2$s PARC)."
+msgstr "وضعیت فاکتور پرنیان‌کوین: %1$s (دریافت‌شده %2$s PARC)."
+
+msgid "Pay with ParnianCoin (PARC)"
+msgstr "پرداخت با پرنیان‌کوین (PARC)"
+
+msgid "ParnianCoin (Parnian Pay)"
+msgstr "پرنیان‌کوین (درگاه پرنیان)"
+
+msgid "Accept ParnianCoin (PARC). Payments go directly from the buyer’s wallet to your own PARC account."
+msgstr "دریافت پرنیان‌کوین (PARC). پرداخت مستقیم از کیف پول خریدار به حساب PARC خود شما واریز می‌شود."
+
+msgid "Enable/Disable"
+msgstr "فعال/غیرفعال"
+
+msgid "Enable ParnianCoin payments"
+msgstr "فعال‌سازی پرداخت با پرنیان‌کوین"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Description"
+msgstr "توضیحات"
+
+msgid "You will be taken to the secure Parnian Pay page to pay from your ParnianCoin wallet."
+msgstr "به صفحه‌ی امن درگاه پرنیان منتقل می‌شوید تا از کیف پول پرنیان‌کوین خود پرداخت کنید."
+
+msgid "Connection"
+msgstr "اتصال"
+
+#, php-format
+msgid "Create an API key in your Parnian Pay dashboard and set this Webhook URL there: %s"
+msgstr "در داشبورد درگاه پرنیان یک کلید API بسازید و این آدرس را به‌عنوان وب‌هوک ثبت کنید: %s"
+
+#, php-format
+msgid "The PARC price is set in the Parnian Pay dashboard (Conversion rates) — add a rate for %s there."
+msgstr "قیمت PARC در داشبورد درگاه پرنیان (بخش نرخ تبدیل) تعیین می‌شود — برای %s در آنجا نرخ ثبت کنید."
+
+msgid "API key"
+msgstr "کلید API"
+
+msgid "Starts with pk_live_. Kept on your server only."
+msgstr "با pk_live_ شروع می‌شود و فقط روی سرور شما نگه داشته می‌شود."
+
+msgid "Webhook signing secret"
+msgstr "کلید امضای وب‌هوک"
+
+msgid "Starts with whsec_. Shown in the Webhook section of your Parnian Pay dashboard."
+msgstr "با whsec_ شروع می‌شود و در بخش وب‌هوک داشبورد درگاه پرنیان نمایش داده می‌شود."
+
+msgid "Payment window (minutes)"
+msgstr "مهلت پرداخت (دقیقه)"
+
+msgid "Gateway address"
+msgstr "آدرس درگاه"
+
+msgid "Debug log"
+msgstr "گزارش اشکال‌زدایی"
+
+msgid "Log requests and webhooks (WooCommerce → Status → Logs, source \"parnian-pay\")"
+msgstr "ثبت درخواست‌ها و وب‌هوک‌ها (ووکامرس ← وضعیت ← گزارش‌ها، منبع «parnian-pay»)"
+
+#, php-format
+msgid "Parnian Pay: connection failed — %s"
+msgstr "درگاه پرنیان: اتصال ناموفق بود — %s"
+
+#, php-format
+msgid "Parnian Pay: connected as \"%1$s\", but the gateway is not active yet (status: %2$s). Payments will be refused until an administrator approves it."
+msgstr "درگاه پرنیان: با نام «%1$s» متصل شد، اما درگاه هنوز فعال نیست (وضعیت: %2$s). تا تأیید مدیر، پرداخت‌ها پذیرفته نمی‌شوند."
+
+#, php-format
+msgid "Parnian Pay: connected as \"%s\" — gateway active."
+msgstr "درگاه پرنیان: با نام «%s» متصل شد — درگاه فعال است."
+
+#, php-format
+msgid "Parnian Pay: no conversion rate is set for %s in your Parnian Pay dashboard — checkout with ParnianCoin will fail until you add one."
+msgstr "درگاه پرنیان: برای %s در داشبورد درگاه پرنیان نرخ تبدیلی ثبت نشده — تا نرخ را اضافه نکنید، پرداخت با پرنیان‌کوین انجام نمی‌شود."
+
+#, php-format
+msgid "Parnian Pay: current rate 1 PARC = %1$s %2$s."
+msgstr "درگاه پرنیان: نرخ فعلی هر PARC = %1$s %2$s."
+
+msgid "Parnian Pay: the webhook signing secret is empty — payments will only be confirmed when buyers return to your site."
+msgstr "درگاه پرنیان: کلید امضای وب‌هوک خالی است — پرداخت‌ها فقط وقتی تأیید می‌شوند که خریدار به سایت برگردد."
+
+msgid "This order cannot be paid with ParnianCoin."
+msgstr "این سفارش را نمی‌توان با پرنیان‌کوین پرداخت کرد."
+
+#, php-format
+msgid "Order #%1$s — %2$s"
+msgstr "سفارش #%1$s — %2$s"
+
+msgid "ParnianCoin payments are temporarily unavailable in this store."
+msgstr "پرداخت با پرنیان‌کوین در این فروشگاه موقتاً در دسترس نیست."
+
+msgid "Could not start the ParnianCoin payment. Please try again in a moment."
+msgstr "شروع پرداخت پرنیان‌کوین ممکن نشد. لطفاً کمی بعد دوباره تلاش کنید."
+
+#, php-format
+msgid "ParnianCoin invoice created: %1$s PARC (%2$s)."
+msgstr "فاکتور پرنیان‌کوین ساخته شد: %1$s PARC (%2$s)."
+
+#, php-format
+msgid "ParnianCoin invoice %s is marked paid but the amount does not match the order. Please check."
+msgstr "فاکتور پرنیان‌کوین %s پرداخت‌شده اعلام شده، اما مبلغ با سفارش مطابقت ندارد. لطفاً بررسی کنید."
+
+#, php-format
+msgid "ParnianCoin payment confirmed: %1$s PARC. %2$s"
+msgstr "پرداخت پرنیان‌کوین تأیید شد: %1$s PARC. %2$s"
+
+msgid "ParnianCoin payment received — waiting for block confirmation."
+msgstr "پرداخت پرنیان‌کوین دریافت شد — در انتظار تأیید بلاک."
+
+#, php-format
+msgid "ParnianCoin payment arrived after the invoice expired (%1$s PARC). Decide manually: complete the order or refund. %2$s"
+msgstr "پرداخت پرنیان‌کوین پس از انقضای فاکتور رسید (%1$s PARC). دستی تصمیم بگیرید: سفارش را تکمیل یا وجه را بازگردانید. %2$s"
+
+#, php-format
+msgid "ParnianCoin invoice expired with a partial payment (%1$s PARC). Contact the customer. %2$s"
+msgstr "فاکتور پرنیان‌کوین با پرداخت ناقص منقضی شد (%1$s PARC). با مشتری تماس بگیرید. %2$s"
+
+msgid "ParnianCoin invoice expired without payment."
+msgstr "فاکتور پرنیان‌کوین بدون پرداخت منقضی شد."
+
+msgid "Your ParnianCoin payment is being confirmed on the blockchain. This page will show the order as paid once it is confirmed; you will not be charged twice."
+msgstr "پرداخت پرنیان‌کوین شما در حال تأیید روی زنجیره است. پس از تأیید، سفارش در این صفحه پرداخت‌شده نمایش داده می‌شود؛ مبلغی دو بار از شما کسر نمی‌شود."
+
+msgid "Open the payment page"
+msgstr "باز کردن صفحه‌ی پرداخت"
+
